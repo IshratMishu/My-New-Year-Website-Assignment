@@ -60,7 +60,7 @@ margin-bottom: 5px;
     height: 500px;
 }
 .meta-header{
-    background-color: rgb(251, 237, 251);
+    background-color: rgba(255, 0, 0, 0.10);
     margin-left: auto;
     margin-right: auto;
     width: 50%;
@@ -100,7 +100,7 @@ margin-bottom: 5px;
     background-color: #F00;
     margin-bottom: 142px;
 }   
-nav{
+.first-nav{
     display: flex;
 }
 .picture{
@@ -153,6 +153,13 @@ nav{
     text-decoration: none;
     color: #FFF;
 }
+.new-goal{
+    background-color: rgba(255, 0, 0, 0.10);
+    width: 1320px;
+    height: 476px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
 
 .bestoffer-title{
     color: #F00;
@@ -160,17 +167,46 @@ nav{
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    }
+    padding-top: 30px;
+}
 .bestoffer-coming{
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
+    padding-left: 40px;
 }
 .bestoffer-description{
-    color: rgb(251, 237, 251);
+    color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+    width: 393px;
+    padding-left: 40px;
+}
+.second-nav{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+.four{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.four-description{
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.border-picture{
+    padding: 40px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    margin-right: 50px;
 }
