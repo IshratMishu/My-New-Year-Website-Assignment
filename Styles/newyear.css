@@ -28,3 +28,42 @@ margin-bottom: 5px;
     line-height: 95px; 
     margin: 0 auto;
 }
+.deal{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.better{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+.categories{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 3px;
+}
+.newyear{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 500px;
+}
+.meta-header{
+    background-color: rgb(243, 238, 243);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 780px;
+}
+
