@@ -2,7 +2,7 @@
 /* font-family: 'Inter', sans-serif;
 font-family: 'Merriweather', serif; */
 .header{
-    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url(../Images/Banner\ Image.png);
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('../Images/Banner\ Image.png');
     background-position: center;
     width: 1320px;
     height: 600px;
@@ -66,4 +66,50 @@ margin-bottom: 5px;
     width: 50%;
     height: 780px;
 }
+.party{
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) , url('../Images/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.midnight{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    margin-top: 15px;
+}
+.firework{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 
+}
+.button{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #F00;
+    margin-bottom: 142px;
+}   
+nav{
+    display: flex;
+}
+.picture{
+    width: 319.83px;
+    height: 464.662px;
+    padding: 68px 138px 67px 0px;
+    flex-direction: column;
+}
+.second-div{
+    display: block;
+    padding: 126px;
+}
