@@ -113,3 +113,44 @@ nav{
     display: block;
     padding: 126px;
 }
+.vanue{
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    margin-top: 120px;
+    
+}
+.sigma{
+    padding: 100px; 
+    align-items: center;
+}
+.vibrant{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    }
+.vibrant span{
+    color: #F00;
+}
+.second-button{
+    padding: 16px 32px;
+    justify-content: center;
+    border-radius: 8px;
+    background: #F00;
+    border-style: none;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+.second-button a {
+    text-decoration: none;
+    color: #FFF;
+}
+
